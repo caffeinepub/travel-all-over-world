@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Travel business app showcasing car rental services with vehicle fleet, pricing information, and contact details",
   "architectural_notes": [
     "Mobile app targeting Android (Play Store)",
@@ -9,6 +9,7 @@
   ],
   "known_issues": [],
   "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Instagram logo icon in brand colors suitable for the app's cool color scheme (instagram-logo.dim_64x64.png)",
   "existing_features": [
     {
       "id": "feature-display-a-fleet-showcase-section-featuring-five-car-models-dzire-kia-urbania-etios-and-crysta-each-car-should-be-presented-with-its-photo-and-name",
@@ -73,6 +74,14 @@
         "REQ-8"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-add-an-instagram-logo-that-links-to-www-instagram-com-karan-pbx05-when-users-click-the-logo-they-should-be-directed-to-this-instagram-profile-in-a-new-tab",
+      "title": "Add an Instagram logo that links to www.instagram.com/karan.pbx05/ - when users click the logo, they should be directed to this Instagram profile in a new tab",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -115,6 +124,12 @@
     {
       "id": "AR-7",
       "summary": "Prepare app for Play Store publication",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add clickable Instagram logo linking to www.instagram.com/karan.pbx05/",
       "reqIds": [],
       "status": "pending"
     }

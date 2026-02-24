@@ -1,56 +1,43 @@
 {
   "kind": "build_request",
-  "title": "Remove Toyota Crysta and Urbania from fleet showcase",
+  "title": "Add Instagram link with logo",
+  "projectName": "Karma Travels",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-7",
-      "text": "Remove Toyota Crysta from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
+      "id": "REQ-9",
+      "text": "Add an Instagram logo that links to www.instagram.com/karan.pbx05/ - when users click the logo, they should be directed to this Instagram profile in a new tab",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-latest"
+          "msg-last"
         ],
         "quotes": [
-          "remove toyota crysta and urbania"
+          "add at instagram logo www.instagram.com/karan.pbx05/ that if anyone click on it they obtain this id"
         ]
       },
       "acceptanceCriteria": [
-        "Toyota Crysta is no longer displayed in the fleet showcase grid",
-        "No broken image references for Crysta remain in the component",
-        "The fleet showcase grid displays only three remaining vehicles (Dzire, Kia Carens, Etios)"
-      ]
-    },
-    {
-      "id": "REQ-8",
-      "text": "Remove Urbania from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-latest"
-        ],
-        "quotes": [
-          "remove toyota crysta and urbania"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Urbania is no longer displayed in the fleet showcase grid",
-        "No broken image references for Urbania remain in the component",
-        "The fleet showcase maintains proper responsive grid layout with remaining vehicles"
+        "Instagram logo is visible on the page",
+        "Logo links to https://www.instagram.com/karan.pbx05/",
+        "Link opens in a new browser tab",
+        "Logo is appropriately sized and positioned for user interaction"
       ]
     }
   ],
   "constraints": [
-    "Do not modify the FleetShowcase component structure beyond removing the two specified vehicles",
-    "Preserve the existing grid layout and styling for the remaining fleet vehicles"
+    "Do not modify backend files",
+    "Use existing component architecture and styling patterns",
+    "Maintain cool color scheme consistency"
   ],
   "nonGoals": [
-    "Adding new vehicles to replace the removed ones",
-    "Redesigning the fleet showcase layout",
-    "Modifying other sections of the application"
+    "Adding other social media links beyond Instagram",
+    "Creating a full social media section",
+    "Modifying existing social links in Footer component"
   ],
   "imageRequirements": {
-    "required": [],
+    "required": [
+      "Instagram logo icon in brand colors suitable for the app's cool color scheme (instagram-logo.dim_64x64.png)"
+    ],
     "edits": []
   }
 }

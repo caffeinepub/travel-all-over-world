@@ -1,46 +1,35 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-23T15:22:31.946Z",
+  "generatedAt": "2026-02-24T03:55:12.063Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 2,
-    "implemented": 2,
+    "total": 1,
+    "implemented": 1,
     "items": [
       {
-        "id": "REQ-7",
-        "summary": "Remove Toyota Crysta from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
+        "id": "REQ-9",
+        "summary": "Add an Instagram logo that links to www.instagram.com/karan.pbx05/ - when users click the logo, they should be directed to this Instagram profile in a new tab",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/FleetShowcase.tsx"
+          "frontend/src/components/Header.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/components/FleetShowcase.tsx"
-        ]
-      },
-      {
-        "id": "REQ-8",
-        "summary": "Remove Urbania from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/FleetShowcase.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/FleetShowcase.tsx"
+          "frontend/src/components/Header.tsx"
         ]
       }
     ]
   },
   "changedFiles": [
     "build-request.json",
-    "build-template/README.md",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/src/components/FleetShowcase.tsx",
+    "frontend/public/assets/generated/instagram-logo.dim_64x64.png",
+    "frontend/src/components/Header.tsx",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",

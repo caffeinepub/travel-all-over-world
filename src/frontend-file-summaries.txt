@@ -1,6 +1,6 @@
 {
   "frontend/src/App.tsx": "Main application component that orchestrates the layout with Header, Hero, FleetShowcase, ServicesSection, PricingSection, CallToAction, and Footer components in a single-page layout.",
-  "frontend/src/components/Header.tsx": "Sticky header component displaying the logo, business name, and prominent call button with contact number 9878784024.",
+  "frontend/src/components/Header.tsx": "Sticky header component displaying the logo, business name, Instagram social link, and prominent call button with contact number 9878784024.",
   "frontend/src/components/Hero.tsx": "Hero section with gradient background featuring the main headline, service description, and primary call-to-action buttons with grid pattern background using inline styles to avoid Tailwind class conflicts.",
   "frontend/src/components/FleetShowcase.tsx": "Fleet showcase component displaying three car models (Dzire, Kia Carens, Etios) with images, names, categories, and capacity in a responsive grid layout.",
   "frontend/src/components/ServicesSection.tsx": "Services section highlighting professional drivers, safety, availability, and service quality with a prominent message about hardworking drivers and good behavior, using updated Tailwind v3 classes.",

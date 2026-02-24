@@ -2,10 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-remove-toyota-crysta-from-the-fleet-showcase-section-in-fleetshowcase-tsx-eliminating-its-card-image-reference-and-all-associated-display-information",
-      "featureTitle": "Remove Toyota Crysta from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
+      "featureId": "feature-add-an-instagram-logo-that-links-to-www-instagram-com-karan-pbx05-when-users-click-the-logo-they-should-be-directed-to-this-instagram-profile-in-a-new-tab",
+      "featureTitle": "Add an Instagram logo that links to www.instagram.com/karan.pbx05/ - when users click the logo, they should be directed to this Instagram profile in a new tab",
       "files": [
-        "frontend/src/components/FleetShowcase.tsx"
+        "frontend/src/components/Header.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -15,25 +15,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-7"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-remove-urbania-from-the-fleet-showcase-section-in-fleetshowcase-tsx-eliminating-its-card-image-reference-and-all-associated-display-information",
-      "featureTitle": "Remove Urbania from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
-      "files": [
-        "frontend/src/components/FleetShowcase.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-8"
+        "REQ-9"
       ],
       "confidence": "high"
     }

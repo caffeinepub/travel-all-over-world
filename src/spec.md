@@ -1,11 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Remove Toyota Crysta and Urbania vehicles from the fleet showcase.
+**Goal:** Add an Instagram logo that links to the Karma Travels Instagram profile.
 
 **Planned changes:**
-- Remove Toyota Crysta card and image reference from FleetShowcase.tsx
-- Remove Urbania card and image reference from FleetShowcase.tsx
-- Maintain responsive grid layout with remaining three vehicles (Dzire, Kia Carens, Etios)
+- Add Instagram logo icon to the page
+- Link the Instagram logo to https://www.instagram.com/karan.pbx05/
+- Configure link to open in a new browser tab
 
-**User-visible outcome:** Fleet showcase displays only three vehicles (Dzire, Kia Carens, Etios) without Toyota Crysta and Urbania.
+**User-visible outcome:** Users can click the Instagram logo to visit the Karma Travels Instagram profile in a new tab.
