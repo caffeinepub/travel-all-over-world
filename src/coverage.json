@@ -1,0 +1,49 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-23T15:22:31.946Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-7",
+        "summary": "Remove Toyota Crysta from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/FleetShowcase.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/FleetShowcase.tsx"
+        ]
+      },
+      {
+        "id": "REQ-8",
+        "summary": "Remove Urbania from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/FleetShowcase.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/FleetShowcase.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/FleetShowcase.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

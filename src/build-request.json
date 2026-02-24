@@ -1,0 +1,56 @@
+{
+  "kind": "build_request",
+  "title": "Remove Toyota Crysta and Urbania from fleet showcase",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "Remove Toyota Crysta from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "remove toyota crysta and urbania"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Toyota Crysta is no longer displayed in the fleet showcase grid",
+        "No broken image references for Crysta remain in the component",
+        "The fleet showcase grid displays only three remaining vehicles (Dzire, Kia Carens, Etios)"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Remove Urbania from the fleet showcase section in FleetShowcase.tsx, eliminating its card, image reference, and all associated display information",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "remove toyota crysta and urbania"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Urbania is no longer displayed in the fleet showcase grid",
+        "No broken image references for Urbania remain in the component",
+        "The fleet showcase maintains proper responsive grid layout with remaining vehicles"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the FleetShowcase component structure beyond removing the two specified vehicles",
+    "Preserve the existing grid layout and styling for the remaining fleet vehicles"
+  ],
+  "nonGoals": [
+    "Adding new vehicles to replace the removed ones",
+    "Redesigning the fleet showcase layout",
+    "Modifying other sections of the application"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the layout with Header, Hero, FleetShowcase, ServicesSection, PricingSection, CallToAction, and Footer components in a single-page layout.",
+  "frontend/src/components/Header.tsx": "Sticky header component displaying the logo, business name, and prominent call button with contact number 9878784024.",
+  "frontend/src/components/Hero.tsx": "Hero section with gradient background featuring the main headline, service description, and primary call-to-action buttons with grid pattern background using inline styles to avoid Tailwind class conflicts.",
+  "frontend/src/components/FleetShowcase.tsx": "Fleet showcase component displaying three car models (Dzire, Kia Carens, Etios) with images, names, categories, and capacity in a responsive grid layout.",
+  "frontend/src/components/ServicesSection.tsx": "Services section highlighting professional drivers, safety, availability, and service quality with a prominent message about hardworking drivers and good behavior, using updated Tailwind v3 classes.",
+  "frontend/src/components/PricingSection.tsx": "Comprehensive pricing display showing per-kilometer rates (₹16/km), daily rental (₹1500/day), and city-specific routes (Chandigarh ₹3800, Jalandhar ₹1500, Ludhiana ₹2999).",
+  "frontend/src/components/CallToAction.tsx": "Call-to-action section with prominent contact buttons for phone and WhatsApp encouraging users to reach out for bookings and information.",
+  "frontend/src/components/Footer.tsx": "Footer component with business information, contact details, services list, social media links, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks file for backend interactions, currently minimal as backend has no methods implemented.",
+  "frontend/src/index.css": "Global styles with cool blue-teal OKLCH color scheme for both light and dark modes, creating a calming professional atmosphere.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Inter font family and custom design tokens matching the cool color scheme."
+}

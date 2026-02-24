@@ -1,0 +1,39 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Remove Toyota Crysta and Urbania from fleet showcase",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "summary": "Remove Toyota Crysta from the fleet showcase section",
+      "acceptanceCriteria": [
+        "Toyota Crysta is no longer displayed in the fleet showcase grid",
+        "No broken image references for Crysta remain in the component",
+        "The fleet showcase grid displays only three remaining vehicles (Dzire, Kia Carens, Etios)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FleetShowcase.tsx",
+          "operation": "modify",
+          "description": "Remove the Toyota Crysta vehicle object from the vehicles array, including its image reference to frontend/public/assets/generated/crysta.dim_800x600.png, title, category, and capacity properties. Ensure the remaining vehicles array maintains proper TypeScript typing and the grid layout continues to render correctly with four vehicles instead of five."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Remove Urbania from the fleet showcase section",
+      "acceptanceCriteria": [
+        "Urbania is no longer displayed in the fleet showcase grid",
+        "No broken image references for Urbania remain in the component",
+        "The fleet showcase maintains proper responsive grid layout with remaining vehicles"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FleetShowcase.tsx",
+          "operation": "modify",
+          "description": "Remove the Urbania vehicle object from the vehicles array, including its image reference to frontend/public/assets/generated/urbania.dim_800x600.png, title, category, and capacity properties. Verify that the grid layout styling (likely using Tailwind grid classes) properly accommodates three vehicles and maintains responsive behavior across different screen sizes."
+        }
+      ]
+    }
+  ]
+}
